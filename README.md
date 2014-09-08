@@ -2,8 +2,6 @@ CSSCombSettings
 ===============
 
 {
-    // Full list of supported options and acceptable values can be found here:
-    // https://github.com/csscomb/csscomb.js/blob/master/doc/options.md
     "config": {
 
         // Whether to add a semicolon after the last value/mixin.
@@ -73,6 +71,7 @@ CSSCombSettings
         "vendor-prefix-align": true,
 
         // Sort properties in particular order.
+        
        "sort-order": [
         [
             "$import",
@@ -168,7 +167,6 @@ CSSCombSettings
             "-ms-text-align-last",
             "text-align-last"
         ],
-
         [
             "table-layout",
             "empty-cells",
@@ -378,7 +376,7 @@ CSSCombSettings
             "filter:progid:DXImageTransform.Microsoft.gradient",
             "-ms-filter:\\'progid:DXImageTransform.Microsoft.gradient",
             "text-shadow"
+            ]
         ]
-    ]
     }
 }
