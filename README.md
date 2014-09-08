@@ -1,7 +1,7 @@
 CSSCombSettings
 ===============
 
-{
+
     "config": {
 
         // Whether to add a semicolon after the last value/mixin.
@@ -379,4 +379,4 @@ CSSCombSettings
             ]
         ]
     }
-}
+
